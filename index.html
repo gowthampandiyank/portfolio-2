@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gowtham pandiyan</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header container">
+      <ul class="header_menu">
+        <li><a class="header_links" href="#about">About</a></li>
+        <li><a class="header_links" href="#Featured">work</a></li>
+        <li><a class="header_links" href="#contact">Contact</a></li>
+        <li class="header_line"></li>
+        <button id="theme_toggel" class="header_sun">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"
+            />
+          </svg>
+        </button>
+        <li>
+          <a
+            class="header_resume btn"
+            href="public/Gowtham web- designer.pdf"
+            target="_blank"
+            >Resume</a
+          >
+        </li>
+      </ul>
+      <button class="header_bars">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </header>
+    <!-- mobile navigation -->
+    <div class="mobile-nav">
+      <nav class="mobile_nav-menu">
+        <li><a class="mobile_nav-link" href="#about">About</a></li>
+        <li><a class="mobile_nav-link" href="#Featured">work</a></li>
+        <li><a class="mobile_nav-link" href="#contact">contact</a></li>
+        <li class="mobile_nav_line"></li>
+        <button id="theme_toggel" class="mobile_nav_sun">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"
+            />
+          </svg>
+        </button>
+        <li>
+          <a
+            class="header_resume btn"
+            href="public/Gowtham web- designer.pdf"
+            target="_blank"
+            >Resume</a
+          >
+        </li>
+      </nav>
+    </div>
+    <!-- end mobile navigation -->
+    <main>
+      <!-- intro -->
+      <section class="hero container">
+        <img class="hero_img" src="public/gp1.jpg" alt="profile image" />
+        <h2 class="hero_subtitle">
+          HI I'M <br />
+          GOWTHAM PANDIYAN
+        </h2>
+        <h1 class="hero_title">FRONT-END <br />WEB DEVELOPER</h1>
+        <p class="hero_dicription">
+          As a passionate <span>front-end web developing </span> with a strong
+          foundation in <span> HTML, CSS, JavaScript.</span> I aim to join a
+          dynamic team where I can apply my knowledge and collaborate on
+          impactful web development initiatives
+        </p>
+        <a class="hero_btn btn" href="#">reach out</a>
+      </section>
+      <!-- about me -->
+      <section id="about" class="about container section">
+        <div class="about_contant">
+          <h2 class="about_title">About</h2>
+          <p class="about_description">
+            Hello there! I'm Gowtham Pandiyan, I am a
+            <span> Frontend/ web developer</span>
+          </p>
+          <p class="about_description">
+            based near Montreal. I wake up in the moming, grab a cup of timmies
+            coffee, open up my laptop and bulld things that live on the web all
+            day, everyday.
+          </p>
+          <p class="about_description">
+            People who know me say I'm obsessed, that's fair, I am very driven
+            and love leaning new thing
+          </p>
+          <hr class="about_hr" />
+          <h3>skills</h3>
+          <div class="about_ul-container">
+            <ul class="about_ul">
+              <h6 class="about_subtitle">Technologies</h6>
+              <li class="about_list">HTML</li>
+              <li class="about_list">CSS</li>
+              <li class="about_list">JAVASCRIPT</li>
+            </ul>
+            <ul class="about_ul">
+              <h6 class="about_subtitle">Tools</h6>
+              <li class="about_list">git and github</li>
+              <li class="about_list">Excel</li>
+              <li class="about_list">Figma</li>
+              <li class="about_list">dev webv tool</li>
+            </ul>
+            <!-- <ul class="about_ul">
+              <h6 class="about_subtitle">INTERPERSONAL SKILLS</h6>
+              <li class="about_list">Communication</li>
+              <li class="about_list">Adaptability</li>
+              <li class="about_list">Teamwork</li>
+              <li class="about_list">Collaboration</li>
+            </ul> -->
+          </div>
+        </div>
+        <div class="about_img">
+          <img src="public/gp2.jpg" alt="profile picter" />
+        </div>
+      </section>
+      <!-- Featured -->
+      <section id="Featured" class="work container section">
+        <h2 class="work_title">work</h2>
+        <p class="work_discription">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          ratione possimus illum quas! Laborum provident nobis quo iste
+          cupiditate, non cumque minus, eius, quasi eligendi atque tempora
+          dolore dicta. Delectus.
+        </p>
+        <div class="work_container">
+          <!-- project-1 -->
+          <h3 class="work-project_title">project one</h3>
+          <div class="work_wrapper work_image1">
+            <img src="public/image.png" alt="project one" />
+          </div>
+          <div class="work_project work_content1">
+            <h3 class="work_subtitle">project one</h3>
+            <p class="work_project_description1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              dolore ipsam aliquid tempore accusantium pariatur, eius maiores
+              cum reprehenderit omnis.
+            </p>
+            <p class="work_project_description2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
+              ipsa.
+            </p>
+            <a class="btn work_project-btn" href="#">website</a>
+          </div>
+          <!-- project-2 -->
+          <h3 class="work-project_title">project two</h3>
+          <div class="work_wrapper work_image2">
+            <img src="public/image.png" alt="project one" />
+          </div>
+          <div class="work_project work_content2">
+            <h3 class="work_subtitle">project two</h3>
+            <p class="work_project_description1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              dolore ipsam aliquid tempore accusantium pariatur, eius maiores
+              cum reprehenderit omnis.
+            </p>
+            <p class="work_project_description2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
+              ipsa.
+            </p>
+            <a class="btn work_project-btn" href="#">website</a>
+          </div>
+          <!-- project-3 -->
+          <h3 class="work-project_title">project three</h3>
+          <div class="work_wrapper work_image3">
+            <img src="public/image.png" alt="project one" />
+          </div>
+          <div class="work_project work_content3">
+            <h3 class="work_subtitle">project three</h3>
+            <p class="work_project_description1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              dolore ipsam aliquid tempore accusantium pariatur, eius maiores
+              cum reprehenderit omnis.
+            </p>
+            <p class="work_project_description2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
+              ipsa.
+            </p>
+            <a class="btn work_project-btn" href="#">website</a>
+          </div>
+          <!-- project-4-->
+          <h3 class="work-project_title">project four</h3>
+          <div class="work_wrapper work_image4">
+            <img src="public/image.png" alt="project one" />
+          </div>
+          <div class="work_project work_content4">
+            <h3 class="work_subtitle">project four</h3>
+            <p class="work_project_description1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              dolore ipsam aliquid tempore accusantium pariatur, eius maiores
+              cum reprehenderit omnis.
+            </p>
+            <p class="work_project_description2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
+              ipsa.
+            </p>
+            <a class="btn work_project-btn" href="#">website</a>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section id="contact" class="contact container section">
+        <h2 class="contact_title">contact me</h2>
+        <p class="contact_discription">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          labore quae praesentium minima natus qui, itaque rem libero id.
+          Soluta.
+        </p>
+        <a
+          class="contact_btn btn"
+          href=" mail:contact_iconsgowthampandiyan7@gmail.com"
+          torget="blank"
+          >reach me</a
+        >
+        <div class="contact_links">
+          <p>
+            <i class="fa-solid fa-paper-plane"></i>gowthampandiyan7@gmail.com
+          </p>
+
+          <p><i class="fa-solid fa-phone"></i>988449773</p>
+          <div class="contact_icons">
+            <a href="https://www.facebook.com/k.gowthampandiyan" target="_blank"
+              ><i class="fa-brands fa-facebook btn"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/gowtham-pandiyan-3084462a5/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin btn"></i
+            ></a>
+            <a href="https://github.com/gowthampandiyank" target="_blank"
+              ><i class="fa-brands fa-github btn"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/k.gowthampandiyan/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram btn"></i
+            ></a>
+          </div>
+        </div>
+        <div class="contact_input"></div>
+      </section>
+    </main>
+    <footer class="footer container section">
+      <h3 class="footer_title">~gowthampandiyan~</h3>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

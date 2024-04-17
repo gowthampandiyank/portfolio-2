@@ -1,0 +1,78 @@
+:root {
+  --clr-dark: #090c11;
+  --clr-light: #f1f5f9;
+  --clr-slate400: #94a3b8;
+  --clr-slate600: #475569;
+  --clr-slate800: #1e293b;
+  --clr-rose: #e11d48;
+  --clr-indigo: #4f46e5;
+
+  /* 	rpse rgb(225, 29, 72)  */
+  /* indigo rgb(79, 70, 229) */
+
+  --size-2xsm: 0.5rem;
+  --size-xsm: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-mediam: 1rem;
+  --size-lg: 1.125rem;
+  --size-xlg: 1.25;
+  --size-2xlg: 1.5rem;
+  --size-3xlg: 1.875rem;
+  --size-4xlg: 2.25rem;
+  --size-5xlg: 3rem;
+  --size-6xlg: 3.75rem;
+  --size-7xlg: 5.5rem;
+  --size-8xlg: 6rem;
+  --size-9xlg: 8rem;
+  --size-10xlg: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.light-mode {
+  --clr-light: #090c11;
+  --clr-dark: #f1f5f9;
+  --clr-slate400: #1e293b;
+  --clr-slate600: #1e293b;
+  --clr-slate800: #1e293b;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+img,
+picture,
+video,
+audio,
+canvas {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+strong {
+  color: var(--clr-rose);
+}
+span {
+  color: var(--clr-indigo);
+}
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-rose);
+  outline: 1px solid var(--clr-rose);
+}

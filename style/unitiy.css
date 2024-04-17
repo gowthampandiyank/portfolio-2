@@ -1,0 +1,43 @@
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  padding: 0.5em 1em;
+  background-color: var(--clr-rose);
+  color: var(--clr-light);
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 10px 20px rgb(225, 29, 72), 0 6px 6px rgb(225, 29, 72),
+    0 0 100px -10px var(--clr-rose);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* xs  */
+/* @media (min-width: 475px) {} */
+
+/* sm  */
+/* @media (min-width: 640px) {} */
+
+/* mediam  */
+/* @media (min-width: 768px) {} */
+
+/*  lg  */
+/* @media (min-width: 1020px) {} */
+
+/* xlg  */
+/* @media (min-width: 1280px) {} */
+
+/* 2xlg  */
+/* @media (min-width: 1536px) {} */
