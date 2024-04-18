@@ -292,7 +292,41 @@
             ></a>
           </div>
         </div>
-        <div class="contact_input"></div>
+        <div class="contact_input">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact_left"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="29fa3af1-d7cc-4cb5-8f26-ca42d5ca5901"
+            />
+            <input
+              type="text"
+              name="name"
+              placeholder="YOUR NAME"
+              class="contact_inputs"
+              required
+            />
+            <input
+              type="text"
+              name="name"
+              placeholder="YOUR EMAIL"
+              class="contact_inputs"
+              required
+            />
+            <textarea
+              type="text"
+              name="message"
+              placeholder="YOUR MESSAGE"
+              class="contact_inputs"
+              required
+            ></textarea>
+            <button class="submit_btn btn" type="submit">SUBMIT</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="footer container section">
