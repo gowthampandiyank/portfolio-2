@@ -72,31 +72,22 @@
   font-size: var(--size--mediam);
 }
 /* xs  */
-@media (min-width: 320px) {
+@media (min-width: 375px) {
   .contact {
-    gap: 1rem;
+    gap: 1.5rem;
   }
   .contact_title {
-    margin-top: 15px;
-    font-size: var(--size-2xlg);
+    font-size: var(--size-3xlg);
   }
 
   .contact_discription {
-    font-size: var(--size-sm);
+    font-size: var(--size-mediam);
   }
   .contact_btn {
-    font-size: var(--size--sm);
+    font-size: var(--size--mediam);
   }
   .contact_inputs {
-    width: 30vw;
-  }
-  .contact_inputs {
-    width: 100px;
-    height: 10px;
-  }
-  .contact_left textarea {
-    height: 50px;
-    padding-top: 5px;
+    width: 60vw;
   }
 }
 
