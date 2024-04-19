@@ -52,13 +52,14 @@
 }
 
 /* xs  */
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .about {
     gap: 1.5rem;
   }
 
   .about_contant {
     gap: 1.5rem;
+    margin-left: 15px;
   }
   .about_title {
     font-size: var(--size-3xlg);

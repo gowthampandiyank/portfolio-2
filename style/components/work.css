@@ -63,7 +63,7 @@
 }
 
 /* xs  */
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .work_title {
     font-size: var(--size-3xlg);
   }

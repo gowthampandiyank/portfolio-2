@@ -37,7 +37,7 @@
 /* responsive */
 
 /* xs  */
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .hero_img {
     width: 6.5rem;
     height: 6.5rem;
