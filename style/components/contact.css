@@ -26,10 +26,13 @@
   align-items: center;
   gap: 1rem;
   color: var(--clr-slate600);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .contact_links p i {
   color: var(--clr-rose);
   margin-bottom: 10px;
+  margin-top: 1rem;
 }
 .contact_icons a {
   font-size: 1rem;
@@ -95,7 +98,6 @@
   }
   .contact_left textarea {
     height: 100px;
-    width: 150px;
     padding-top: 10px;
     border-radius: 0.25rem;
   }
