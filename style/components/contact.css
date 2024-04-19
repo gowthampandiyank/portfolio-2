@@ -89,6 +89,15 @@
   .contact_inputs {
     width: 60vw;
   }
+  .contact_inputs {
+    width: 200px;
+    height: 50px;
+  }
+  .contact_left textarea {
+    height: 100px;
+    padding-top: 10px;
+    border-radius: 0.25rem;
+  }
 }
 
 /* sm  */
