@@ -95,6 +95,7 @@
   }
   .contact_left textarea {
     height: 100px;
+    width: 150px;
     padding-top: 10px;
     border-radius: 0.25rem;
   }
