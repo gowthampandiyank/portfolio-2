@@ -72,7 +72,7 @@
   font-size: var(--size--mediam);
 }
 /* xs  */
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .contact {
     gap: 1rem;
   }
