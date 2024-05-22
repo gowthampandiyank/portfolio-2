@@ -64,7 +64,7 @@ span {
 }
 /* scrollbar */
 body::-webkit-scrollbar {
-  width: 8px;
+  width: 0.5em;
   height: 5px;
 }
 

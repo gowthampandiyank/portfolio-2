@@ -51,8 +51,8 @@
   align-items: center;
 }
 .contact_inputs {
-  width: 400px;
-  height: 50px;
+  width: 200%;
+  height: 3rem;
   border: none;
   outline: none;
   padding-left: 2rem;
