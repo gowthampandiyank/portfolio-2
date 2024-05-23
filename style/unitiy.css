@@ -15,7 +15,9 @@
 .btn:hover {
   transform: translateY(-3px);
 }
-
+.btn1 {
+  margin-top: 25px;
+}
 .container {
   width: 100%;
   margin-left: auto;
