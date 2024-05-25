@@ -126,6 +126,8 @@
   .contact_btn {
     font-size: var(--size--2xlg);
   }
+  .contact_inputs {
+  width: 200%;}
 }
 
 /* 2xlg  */
