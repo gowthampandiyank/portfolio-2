@@ -89,12 +89,6 @@
   .contact_btn {
     font-size: var(--size--mediam);
   }
-  .contact_left textarea {
-    height: 120px;
-  }
-  .contact_inputs {
-    width: 120%;
-  }
 }
 
 /* sm  */
@@ -112,7 +106,6 @@
   .contact_title {
     font-size: var(--size-4xlg);
   }
-
   .contact_discription {
     font-size: var(--size-lg);
   }
