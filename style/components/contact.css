@@ -51,7 +51,7 @@
   align-items: center;
 }
 .contact_inputs {
-  width: 200%;
+  width: 100%;
   height: 3rem;
   border: none;
   outline: none;
@@ -89,13 +89,23 @@
   .contact_btn {
     font-size: var(--size--mediam);
   }
+  .contact_left textarea {
+    height: 120px;
+  }
+  .contact_inputs {
+    width: 120%;
+  }
 }
 
 /* sm  */
 /* @media (min-width: 640px) {} */
 
 /* mediam  */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .contact_inputs {
+    width: 150%;
+  }
+}
 
 /*  lg  */
 @media (min-width: 1020px) {
@@ -108,6 +118,9 @@
   }
   .contact_btn {
     font-size: var(--size--lg);
+  }
+  .contact_inputs {
+    width: 200%;
   }
 }
 
@@ -125,6 +138,9 @@
   }
   .contact_btn {
     font-size: var(--size--2xlg);
+  }
+  .contact_inputs {
+    width: 250%;
   }
 }
 
