@@ -7,8 +7,8 @@
   --clr-rose: #e11d48;
   --clr-indigo: #4f46e5;
 
-  /* 	rpse rgb(225, 29, 72)  */
-  /* indigo rgb(79, 70, 229) */
+  --rpse rgb(225, 29, 72)
+  --indigo rgb(79, 70, 229)
 
   --size-2xsm: 0.5rem;
   --size-xsm: 0.75rem;
